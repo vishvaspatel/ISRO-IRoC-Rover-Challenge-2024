@@ -10,6 +10,11 @@ This repository presents the **Rover Prototype** developed for the **ISRO IRoC R
 
 The project aimed to engineer a **fully autonomous rover** capable of object detection, depth estimation, and dynamic manipulation using a robotic arm. The rover integrates deep learning models, custom path planning algorithms, and real-time control through ROS2.
 
+
+## 📹 Demonstration
+https://github.com/user-attachments/assets/b0a655db-880a-4647-87d1-97eef528f8cd
+---
+
 ### 🔹 Key Achievements
 
 * 🛰️ Designed and built a rover prototype for **ISRO IRoC 2024**
@@ -50,15 +55,6 @@ The project aimed to engineer a **fully autonomous rover** capable of object det
 * **Object Detection:** Fine-tuned YOLOv8 for high accuracy on custom datasets
 * **Depth Estimation:** Expandable YOLO detects object depth up to 3m
 * **Dynamic Manipulation:** Robotic arm reacts to detected objects in real-time
-
----
-
-## 📹 Demonstration
-
-
-
-https://github.com/user-attachments/assets/b0a655db-880a-4647-87d1-97eef528f8cd
-
 
 ---
 
