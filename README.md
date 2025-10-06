@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 🤖 ISRO IRoC Rover Challenge 2024
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![ROS2](https://img.shields.io/badge/ROS2-Robot%20Operating%20System-blue) ![YOLOv8](https://img.shields.io/badge/YOLOv8-Computer%20Vision-red) ![Jetson%20Nano](https://img.shields.io/badge/Jetson%20Nano-Edge%20AI-green) ![Python](https://img.shields.io/badge/Python-3.8+-yellow)
 
-## Available Scripts
+This repository presents the **Rover Prototype** developed for the **ISRO IRoC Rover Challenge (Dec 2023 – May 2024)**. The rover was designed for autonomous exploration, object detection, and environment interaction using **ROS2**, **YOLOv8**, and **Python**.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The project aimed to engineer a **fully autonomous rover** capable of object detection, depth estimation, and dynamic manipulation using a robotic arm. The rover integrates deep learning models, custom path planning algorithms, and real-time control through ROS2.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🔹 Key Achievements
 
-### `npm test`
+* 🛰️ Designed and built a rover prototype for **ISRO IRoC 2024**
+* 🔍 Fine-tuned **YOLOv8** for custom object detection
+* 📏 Implemented **Expandable YOLO** for depth estimation up to **3 meters**
+* 🦾 Designed a **computer vision-aided robotic arm** for responsive manipulation
+* ⚙️ Modified **Theta*** path planning algorithm achieving **<300ms inference time**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧠 Technology Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Component                | Technology Used               |
+| ------------------------ | ----------------------------- |
+| **Operating System**     | Raspbian OS                   |
+| **Framework**            | ROS2 (Robot Operating System) |
+| **Programming Language** | Python                        |
+| **Computer Vision**      | OpenCV, YOLOv8, PyTorch       |
+| **Hardware Design**      | SolidWorks                    |
+| **Interface**            | Gradio, CSS                   |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Installation & Setup
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Python 3.8+
+* ROS2 Foxy / Humble
+* OpenCV and PyTorch installed
+* Compatible hardware (Raspberry Pi or Jetson Nano)
+  
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧩 Core Functionalities
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* **Autonomous Navigation:** Path planning using a modified Theta* algorithm
+* **Object Detection:** Fine-tuned YOLOv8 for high accuracy on custom datasets
+* **Depth Estimation:** Expandable YOLO detects object depth up to 3m
+* **Dynamic Manipulation:** Robotic arm reacts to detected objects in real-time
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📹 Demonstration
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+https://github.com/user-attachments/assets/b0a655db-880a-4647-87d1-97eef528f8cd
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🚧 Future Enhancements
 
-### Making a Progressive Web App
+* Integration with **GPS and LiDAR** for outdoor navigation
+* Implementation of **multi-object tracking**
+* Real-time telemetry dashboard using **Gradio**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
