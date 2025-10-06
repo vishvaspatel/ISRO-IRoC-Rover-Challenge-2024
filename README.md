@@ -12,7 +12,11 @@ The project aimed to engineer a **fully autonomous rover** capable of object det
 
 
 ## 📹 Demonstration
-https://github.com/user-attachments/assets/b0a655db-880a-4647-87d1-97eef528f8cd
+
+
+https://github.com/user-attachments/assets/3d454811-f563-46d1-88e9-124d441acad5
+
+
 ---
 
 ### 🔹 Key Achievements
