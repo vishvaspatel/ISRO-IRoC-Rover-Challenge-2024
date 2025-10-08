@@ -36,7 +36,11 @@ Our project involved engineering a rover prototype capable of navigating complex
 ## Demonstration
 
 **Prototype 1**.
-https://github.com/user-attachments/assets/b1173e7e-3ce8-4d3e-83a6-21507801f361
+
+
+https://github.com/user-attachments/assets/76a2f048-ca2c-4acd-81e8-e2700fb09e4b
+
+
 
 **Prototype 2 (Click on image to play the video)**.
 
