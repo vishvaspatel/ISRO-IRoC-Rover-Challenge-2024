@@ -1,71 +1,46 @@
-# 🤖 ISRO IRoC Rover Challenge 2024
+# ISRO-IRoC-U-2024
 
-![ROS2](https://img.shields.io/badge/ROS2-Robot%20Operating%20System-blue) ![YOLOv8](https://img.shields.io/badge/YOLOv8-Computer%20Vision-red) ![Jetson%20Nano](https://img.shields.io/badge/Jetson%20Nano-Edge%20AI-green) ![Python](https://img.shields.io/badge/Python-3.8+-yellow)
+## Overview
 
-This repository presents the **Rover Prototype** developed for the **ISRO IRoC Rover Challenge (Dec 2023 – May 2024)**. The rover was designed for autonomous exploration, object detection, and environment interaction using **ROS2**, **YOLOv8**, and **Python**.
+This repository contains the code and documentation for our team's participation in the **ISRO IRoC Rover Challenge 2024**. We are a group of enthusiastic engineers from **IIT Jodhpur**, and our project involved creating a highly functional rover with advanced object detection and path planning capabilities. 
 
----
+## Project Description
 
-## 🚀 Project Overview
+Our project involved engineering a rover prototype capable of navigating complex environments autonomously. Key features include:
 
-The project aimed to engineer a **fully autonomous rover** capable of object detection, depth estimation, and dynamic manipulation using a robotic arm. The rover integrates deep learning models, custom path planning algorithms, and real-time control through ROS2.
+- **Object Detection**: Leveraging YOLOv8, we fine-tuned the model for custom object detection and implemented Expandable YOLO for depth detection up to 3 meters.
+- **Path Planning**: We integrated the object and depth detection systems with a modified Theta* path planning algorithm, ensuring efficient navigation even in challenging terrains.
+- **Real-time Performance**: Our system achieves an inference time of less than 300ms, enabling real-time decision-making.
 
+## Technologies Used
 
-## 📹 Demonstration
+- **Programming Languages**: Python, C++
+- **Frameworks and Libraries**: ROS2, OpenCV, Pytorch, Gradio
+- **Hardware**: Raspberry Pi, Camera Modules, Sensors
+- **Software**: Raspbian OS, SolidWorks
+- **Machine Learning**: YOLOv8, Expandable YOLO
 
+## Achievements
 
-https://github.com/user-attachments/assets/3d454811-f563-46d1-88e9-124d441acad5
+- **Nationwide Ranking**: Top 20 in the ISRO IRoC Rover Challenge 2024.
+- **Real-Time Object Detection**: Achieved sub-300ms inference time.
+- **Enhanced Path Planning**: Modified Theta* algorithm for efficient pathfinding.
 
+## Prototypes
 
----
+<div style="display: flex; justify-content: space-around;">
+  <img src="image/Prototype_1_2.jpg" width="500" />
+  <img src="image/Prototype_2.jpg" width="500" />
+</div>
 
-### 🔹 Key Achievements
+## Demonstration
 
-* 🛰️ Designed and built a rover prototype for **ISRO IRoC 2024**
-* 🔍 Fine-tuned **YOLOv8** for custom object detection
-* 📏 Implemented **Expandable YOLO** for depth estimation up to **3 meters**
-* 🦾 Designed a **computer vision-aided robotic arm** for responsive manipulation
-* ⚙️ Modified **Theta*** path planning algorithm achieving **<300ms inference time**
-
----
-
-## 🧠 Technology Stack
-
-| Component                | Technology Used               |
-| ------------------------ | ----------------------------- |
-| **Operating System**     | Raspbian OS                   |
-| **Framework**            | ROS2 (Robot Operating System) |
-| **Programming Language** | Python                        |
-| **Computer Vision**      | OpenCV, YOLOv8, PyTorch       |
-| **Hardware Design**      | SolidWorks                    |
-| **Interface**            | Gradio, CSS                   |
-
----
-
-## ⚙️ Installation & Setup
-
-### Prerequisites
-
-* Python 3.8+
-* ROS2 Foxy / Humble
-* OpenCV and PyTorch installed
-* Compatible hardware (Raspberry Pi or Jetson Nano)
+**Prototype 1**.
   
----
+[![Project Video](https://img.youtube.com/vi/yZPEsoxM6oA/0.jpg)]([[https://www.youtube.com/watch?v=yZPEsoxM6oA](https://www.youtube.com/watch?v=yZPEsoxM6oA)])
 
-## 🧩 Core Functionalities
 
-* **Autonomous Navigation:** Path planning using a modified Theta* algorithm
-* **Object Detection:** Fine-tuned YOLOv8 for high accuracy on custom datasets
-* **Depth Estimation:** Expandable YOLO detects object depth up to 3m
-* **Dynamic Manipulation:** Robotic arm reacts to detected objects in real-time
+**Prototype 2 (Click on image to play the video)**.
+  
+[![Project Video](image/Prototype_2.jpg)](https://drive.google.com/file/d/1SGig9JHE7UdSr4B0MpWxnoHgKGTtpPFD/view?usp=sharing) 
 
----
-
-## 🚧 Future Enhancements
-
-* Integration with **GPS and LiDAR** for outdoor navigation
-* Implementation of **multi-object tracking**
-* Real-time telemetry dashboard using **Gradio**
-
----
